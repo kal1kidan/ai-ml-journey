@@ -2,44 +2,59 @@
 
 Welcome to my Artificial Intelligence and Machine Learning journey.
 
-This repository documents my structured path from Python foundations to building real-world AI, Machine Learning, and Data Science projects.
+This repository documents my structured path from learning Python fundamentals to building real-world Artificial Intelligence, Machine Learning, and Data Science projects.
 
-Here I track my daily progress, practical exercises, technical notes, experiments, and projects while developing my skills as an AI/ML engineer.
+My goal is to become an AI/ML Engineer by consistently learning, practicing, building projects, and documenting everything I learn.
 
 ---
 
-# 📌 Journey Progress
+# Journey Progress
 
 | Day | Focus Area | Status |
-|---|---|---|
+|------|-------------------------------|--------|
 | Day 01 | Development Environment Setup | ✅ Completed |
 | Day 02 | Python Foundations | ✅ Completed |
-| Day 03 | NumPy & Pandas | ⏳ Upcoming |
-| Day 04 | Data Analysis & Visualization | ⏳ Upcoming |
-| Day 05 | Machine Learning Fundamentals | ⏳ Upcoming |
-| Day 06+ | AI Projects & Advanced Topics | 🔜 Planned |
+| Day 03 | Python Fundamentals | ✅ Completed |
+| Day 04 | Python Data Structures | ⏳ Upcoming |
+| Day 05 | NumPy | ⏳ Upcoming |
+| Day 06 | Pandas | ⏳ Upcoming |
+| Day 07 | Data Analysis | ⏳ Upcoming |
+| Day 08+ | Machine Learning & AI Projects | 🔜 Planned |
 
 ---
 
-# 📂 Repository Structure
+# Repository Structure
 
-```
+```text
 ai-ml-journey
-
 │
-├── day-01-environment-setup
+├── day-01-environment-setup/
 │   └── README.md
 │
-├── day-02-python-foundations
-│   │
+├── day-02-python-foundations/
 │   ├── README.md
-│   │
-│   └── examples
-│       └── lesson-01
+│   └── examples/
+│       └── lesson-01/
 │           ├── variables.py
 │           ├── arithmetic.py
 │           ├── strings.py
 │           └── functions.py
+│
+├── day-03-python-fundamentals/
+│   ├── README.md
+│   ├── examples/
+│   │   ├── lists/
+│   │   │   └── lists.py
+│   │   ├── loops/
+│   │   │   └── loops.py
+│   │   ├── strings/
+│   │   │   └── strings.py
+│   │   └── exceptions/
+│   │       └── exceptions.py
+│   │
+│   └── mini-projects/
+│       ├── text_analyzer.py
+│       └── file_reader.py
 │
 ├── requirements.txt
 ├── .gitignore
@@ -48,148 +63,171 @@ ai-ml-journey
 
 ---
 
-# 🗓️ Daily Learning Logs
+# Daily Learning Logs
 
-## Day 01 - Environment Setup ✅
+## Day 01 – Development Environment Setup ✅
 
 ### Completed
 
-- Installed and configured Python
-- Created a professional Python development environment
-- Created and managed virtual environments
-- Installed essential AI/ML packages
-- Initialized Git version control
-- Connected local repository to GitHub
+- Installed Python
+- Configured VS Code
+- Created a virtual environment
+- Installed core AI/ML packages
+- Initialized Git repository
+- Connected project to GitHub
 
 Documentation:
 
-➡️ [Day 01 - Environment Setup](./day-01-environment-setup/README.md)
+➡️ **day-01-environment-setup/README.md**
 
 ---
 
-## Day 02 - Python Foundations ✅
+## Day 02 – Python Foundations ✅
 
 ### Topics Covered
 
-- Python syntax and variables
-- Data types
-- Arithmetic operations
-- String manipulation
+- Variables
+- Data Types
+- Arithmetic Operations
+- Strings
 - Functions
-- Parameters and return values
-- Boolean logic
-- Conditional statements
+- Booleans
+- Conditional Statements
 
-### Practical Exercises
+### Practice
 
-Created Python practice programs:
+Created programs covering:
 
-- Variables and data types
-- Arithmetic calculations
-- String operations
-- Custom functions
+- Variables
+- Arithmetic
+- String manipulation
+- Functions and conditions
 
 Documentation:
 
-➡️ [Day 02 - Python Foundations](./day-02-python-foundations/README.md)
+➡️ **day-02-python-foundations/README.md**
 
 ---
 
-# 🛠️ Technologies & Tools
+## Day 03 – Python Fundamentals ✅
 
-## Programming Languages
+### Topics Covered
+
+- Lists
+- Loops
+- List Comprehensions
+- String Processing
+- Exception Handling
+- File Reading
+
+### Mini Projects
+
+- Text Analyzer
+- Safe File Reader
+
+Documentation:
+
+➡️ **day-03-python-fundamentals/README.md**
+
+---
+
+# Technologies & Tools
+
+### Programming
 
 - Python
 
-## Data Science & AI Tools
+### AI & Data Science
 
 - NumPy
 - Pandas
 - Requests
-- Python-dotenv
+- python-dotenv
 
-## Development Tools
+### Development
 
 - VS Code
 - Git
 - GitHub
-- Python Virtual Environment
+- Virtual Environments
 
 ---
 
-# 🎯 Learning Roadmap
+# Learning Roadmap
 
-## Phase 1 - Python Foundations
+## Phase 1 — Python Programming
 
-Status: In Progress
-
-Topics:
-
-- Python syntax
-- Data structures
+- Python Syntax
+- Data Types
 - Functions
-- File handling
-- Object-oriented programming
-- Error handling
+- Data Structures
+- File Handling
+- Error Handling
+- Object-Oriented Programming
+
+**Status:** 🚧 In Progress
 
 ---
 
-## Phase 2 - Data Analysis
-
-Topics:
+## Phase 2 — Data Analysis
 
 - NumPy
 - Pandas
-- Data cleaning
-- Data transformation
-- Data visualization
+- Data Cleaning
+- Data Transformation
+- Data Visualization
 - Exploratory Data Analysis
 
 ---
 
-## Phase 3 - Machine Learning
+## Phase 3 — Machine Learning
 
-Topics:
-
-- Machine learning fundamentals
-- Supervised learning
-- Unsupervised learning
-- Feature engineering
-- Model evaluation
-- ML projects
+- Machine Learning Fundamentals
+- Feature Engineering
+- Model Training
+- Model Evaluation
+- Real-world ML Projects
 
 ---
 
-## Phase 4 - Advanced AI
-
-Topics:
+## Phase 4 — Artificial Intelligence
 
 - Deep Learning
 - Natural Language Processing
 - Computer Vision
 - Generative AI
-- Real-world AI applications
+- Retrieval-Augmented Generation (RAG)
+- AI Applications
 
 ---
 
-# 📈 Learning Philosophy
+# Learning Philosophy
 
-My approach:
+I believe the best way to master AI is through consistent practice.
 
-1. Learn the concept
-2. Practice by writing code
+For every topic I study, I follow the same process:
+
+1. Learn the theory
+2. Write code from scratch
 3. Build small projects
-4. Document what I learn
-5. Review and improve
+4. Document what I learned
+5. Push everything to GitHub
+6. Review and improve regularly
 
-This repository represents consistent progress toward becoming a skilled AI/ML engineer.
+This repository is a public record of my continuous growth as an AI/ML engineer.
 
 ---
 
 # Long-Term Goal
 
-Build strong foundations in programming, data science, and machine learning while creating practical AI solutions that solve real-world problems.
+Build a strong foundation in Python, Data Science, and Machine Learning while creating practical AI solutions that solve real-world problems.
 
 ---
 
-⭐ Follow my journey as I continue learning, building, and improving every day.
+## Connect With Me
+
+GitHub: **https://github.com/kal1kidan**
+
+---
+
+⭐ *Thanks for visiting my repository! Follow my journey as I continue learning, building, and improving one day at a time.*
